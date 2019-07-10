@@ -6,7 +6,7 @@ java -cp .:./db-ping-0.0.1-SNAPSHOT.jar:/Users/mickaelgermemont/.m2/repository/o
 
 ## usage on ebx-server
 
-java -cp .:./db-ping-0.0.1-SNAPSHOT.jar:/home/ec2-user/ebx-server/shared/lib/postgresql-42.2.5.jar com.mg.tools.Main "jdbc:postgresql://localhost:6432/mickaelgermemont" "mickaelgermemont" ""
+java -cp .:./db-ping-0.0.1-SNAPSHOT.jar:/home/ec2-user/server/shared/lib/postgresql-42.2.5.jar com.mg.tools.Main "jdbc:postgresql://localhost:6432/mickaelgermemont" "mickaelgermemont" ""
 
 ## create db-ping-0.0.1-SNAPSHOT.jar
 
